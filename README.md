@@ -17,8 +17,8 @@ mteb/emotion: https://huggingface.co/datasets/mteb/emotion
 - [x] Data preprocessing
 - [x] DistilBERT implementation
 - [x] RoBERTa implementation
-- [ ] Hyperparameter tuning
-- [ ] Performance comparison
+- [x] Hyperparameter tuning
+- [x] Performance comparison
 - [ ] Final evaluation
 
 ## Results
