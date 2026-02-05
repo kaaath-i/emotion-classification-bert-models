@@ -15,11 +15,9 @@ mteb/emotion: https://huggingface.co/datasets/mteb/emotion
 
 ## Results
 *Qualitative Performance*:
-
 DistilBERT achieved superior test accuracy (89%) compared to RoBERTa (86%), despite being a smaller model. Both models performed best on joy and sadness (>90%), while struggling with anger (67%) and surprise (0% due to severe class imbalance). DistilBERT showed particularly strong performance on fear (100%) and love (91%), while RoBERTa struggled notably with love classification (55%).
 
 *Quantitative Analysis*:
-
 Both models primarily confused similar types of emotions. Negative emotions (sadness/anger/fear) were frequently interchanged, as well as positive emotions (joy/love). Common challenges included distinguishing externally from internally focused emotions, identifying emotions in complex sentences with mixed emotional signals or in short sentences with little to no context.
 
 *Visual Analysis*: 
